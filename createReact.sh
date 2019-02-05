@@ -6,7 +6,7 @@ cd $projectName
 npm init -y
 npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin clean-webpack-plugin
 npm install --save react react-dom @babel/polyfill
-npm install --save-dev babel-cli babel-loader @babel/core @babel/preset-env @babel/preset-react
+npm install --save-dev babel-cli babel-loader @babel/core @babel/preset-env @babel/preset-react style-loader css-loader
 
 
 gsed -i '/scripts/a\'\
